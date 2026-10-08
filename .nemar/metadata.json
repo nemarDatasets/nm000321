@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Mainsah et al. 2025 — bigP3BCI: An Open, Diverse and Machine Learning Ready P300-based Brain-Computer Interface Dataset (Study Q)",
-  "description": "Study Q of the bigP3BCI collection, a large open P300-based brain-computer interface speller dataset. It contains 32-channel EEG recorded at 256 Hz with a g.USBamp amplifier from 36 participants with ALS across three sessions each. Participants used a 6x6 character grid with color intensification, and target and non-target events are annotated with HED tags. The data are formatted for machine learning and benchmarking with MOABB.",
-  "methods_description": "EEG was recorded with a g.USBamp (g.tec) amplifier from 32 channels placed in a standard 10-20 montage at 256 Hz. Participants performed a P300 speller task on a 6x6 character grid with color intensification. Each participant completed three sessions, and online feedback was provided. Epochs were extracted over a 0-1.0 s interval after each stimulus for target versus non-target classification.",
+  "description": "Study Q of the bigP3BCI collection, comprising EEG recordings from 36 participants across three sessions each, using a 6x6 character grid P300 speller with color intensification. The recordings were acquired with a 32-channel g.USBamp system at 256 Hz, with target and non-target stimulus events annotated using HED. The dataset is part of a large, machine-learning-ready P300 brain-computer interface collection and supports calibration-then-test evaluation of P300 detection.",
+  "methods_description": "EEG was recorded with a g.tec g.USBamp amplifier from 32 channels placed according to the standard 10-20 montage, sampled at 256 Hz. Participants used a 6x6 P300 speller grid with color intensification, with online feedback, in a laboratory setting. Events are labeled Target and NonTarget, with epochs spanning 0-1.0 s after stimulus.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -87,5 +87,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "b00b0ecb1faf7c31a4f624f870e20d0b014684f08cc0d2f19bdf546082bdacde"
+  "source_hash": "7d1cef1d597237218d487c802830ce4a8b598a6b39ea8e3a78aeffb4838d88fc"
 }
