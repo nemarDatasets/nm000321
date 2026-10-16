@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Mainsah et al. 2025 — bigP3BCI: An Open, Diverse and Machine Learning Ready P300-based Brain-Computer Interface Dataset (Study Q)",
-  "description": "Study Q of the bigP3BCI collection, comprising EEG recordings from 36 participants across three sessions each, using a 6x6 character grid P300 speller with color intensification. The recordings were acquired with a 32-channel g.USBamp system at 256 Hz, with target and non-target stimulus events annotated using HED. The dataset is part of a large, machine-learning-ready P300 brain-computer interface collection and supports calibration-then-test evaluation of P300 detection.",
-  "methods_description": "EEG was recorded with a g.tec g.USBamp amplifier from 32 channels placed according to the standard 10-20 montage, sampled at 256 Hz. Participants used a 6x6 P300 speller grid with color intensification, with online feedback, in a laboratory setting. Events are labeled Target and NonTarget, with epochs spanning 0-1.0 s after stimulus.",
+  "description": "This dataset contains EEG recordings from 36 participants with amyotrophic lateral sclerosis (ALS) performing a P300-based brain-computer interface speller task (Study Q of bigP3BCI). Participants used a 6x6 character grid with color intensification stimuli across three sessions. Data were recorded with 32 EEG channels at 256 Hz and annotated with HED tags for target and non-target events. It is part of the larger bigP3BCI collection, which is intended for machine learning development in P300 BCIs.",
+  "methods_description": "EEG was recorded with a g.USBamp (g.tec) amplifier using 32 channels placed according to the standard 10-20 montage, sampled at 256 Hz. Participants completed a P300 speller task on a 6x6 grid with color intensification, with online feedback, over 3 sessions per subject in a laboratory setting.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -37,10 +37,12 @@
       "term": "speller"
     },
     {
-      "term": "event-related potentials"
+      "term": "Amyotrophic Lateral Sclerosis",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000690"
     },
     {
-      "term": "amyotrophic lateral sclerosis"
+      "term": "event-related potentials"
     }
   ],
   "related_identifiers": [
@@ -84,8 +86,9 @@
     ".json",
     ".md",
     ".tsv",
+    ".txt",
     ".yaml",
     ".yml"
   ],
-  "source_hash": "7d1cef1d597237218d487c802830ce4a8b598a6b39ea8e3a78aeffb4838d88fc"
+  "source_hash": "55ffb1c8483b8af0a69baf619164646e00631e4df110a2dbd89c575467057fc8"
 }
